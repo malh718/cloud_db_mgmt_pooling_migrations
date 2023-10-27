@@ -14,7 +14,8 @@ I made sure to include appropriate fire wall and network rules.
 
 
 <img width="1093" alt="Screen Shot 2023-10-27 at 6 51 51 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/04443b1a-a3bf-45a8-9595-29f0c7e0b729">
-<img width="1099" alt="Screen Shot 2023-10-27 at 6 52 27 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/d02cda17-0b14-4955-b8b6-ba71d926db65">
+
+<img width="972" alt="Screen Shot 2023-10-27 at 7 55 24 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/dafae071-76ed-4f3e-a0fd-4e124df5579f">
 
 # Database Scheme and Database
 
