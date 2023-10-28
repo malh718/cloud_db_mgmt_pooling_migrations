@@ -1,7 +1,7 @@
 # cloud_db_mgmt_pooling_migrations
 # 4c
 
- I ran this code multiple times for many hours and rewatched Zoom lectures 2,3,4,5,6. This is the result: 
+ I ran this code multiple times to the same effect and rewatched Zoom lectures 2,3,4,5,6. This is the result: 
 
 # Connection Pooling Setup 
 I was able to succesfully create an Azure MYSQL instance.
