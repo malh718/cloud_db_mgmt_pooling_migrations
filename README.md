@@ -1,6 +1,7 @@
 # cloud_db_mgmt_pooling_migrations
-# Connection Pooling Setup 
-I spent 2 days on this homework and I ran this code multiple times and rewatched Zoom lectures 2,3,4,5. This is the result: 
+# 4c
+
+ I ran this code multiple times for many hours and rewatched Zoom lectures 2,3,4,5,6. This is the result: 
 
 # Connection Pooling Setup 
 I was able to succesfully create an Azure MYSQL instance.
@@ -29,6 +30,20 @@ Initially, I was confused about how to do this assignment and I started it off c
 
 
 From here, when I tried connecting my Azure SQL instance, it kept failing. At first, I thought this would be a simple fix. I assumed I had put in my password incorrectly, and it was not going though. I tried making multiple new Mysql instances, and Still I received the same error shown below. This was suprising to me because I had succesfully gotten GCP to work properly, and despite folllowing the same instructions it would not work. I did every variation I could, after about 2 hours of this not working, I had to proceed with the GCP instance. 
+
+Ive looked at this peice of code, 85 times. I tried every variation of password I can think of. Everytime I would try the inspect code after, it would not go through. 
+
+engine = create_engine("mysql+pymysql://mnh:DTVdjs28@@managed.mysql.database.azure.com/hw1",
+                         connect_args={'ssl': {'ssl-mode': 'preferred'}},
+                         )
+
+I know it should outpute something like this 
+<img width="1000" alt="Screen Shot 2023-10-27 at 8 00 09 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/b6753a94-92ca-4146-b5b0-8b0d9d5f60b2">
+
+But instead it is outputting this:
+<img width="1015" alt="Screen Shot 2023-10-27 at 8 01 12 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/46112d48-8d6d-413d-be2b-b7cb2e81f565">
+
+
 
 <img width="1437" alt="Screen Shot 2023-10-27 at 7 19 43 PM" src="https://github.com/malh718/cloud_db_mgmt_pooling_migrations/assets/102617334/6bdd0ece-ab5f-4c05-a3a1-2a999bdc25e8">
 
